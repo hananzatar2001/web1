@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding:0;
+   }
+   
+   body{
+    background-color: #8FBC8B;
+   }
+   #n
+{
+    background-color:#5B8855;
+}
+#f
+{
+font-size: 30px;
+font-family: Cursive;
+text-align: center;
+}
+   .header{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   }
+   
+   .Toys .header h1{
+    font-size: 4rem;
+    font-weight: 600;
+    margin-left: 30px;
+   }
+   
+   .Toys .header p{
+    font-size: 1.2rem;
+    opacity: 0.4;
+    font-weight: 400;
+    margin: 30px 30px;
+   }
+   
+   .Toys .hero1 h2{
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-align: center;
+   }
+   
+   .Toys .Cards{
+    max-width: 1000px;
+    height: 400px;
+    margin-left: 175px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+   
+   }
+   
+   .hero1 .Cards .card{
+    width: 280px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.54); 
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.54);
+    transition: 0.5s all ease;
+    border-radius: 8px;
+   background-color:#f4f8f4
+   }
+   
+   .hero1 .card:hover{
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.72); 
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.72);
+    transform: translateY(-20px);
+   }
+   
+   .hero1 .card .img-C1{
+    background-image:url('tc1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 90px;
+    height: 89px;
+    margin-bottom: 20px;
+   }
+   .hero1 .card .img-C2{
+    background-image:url('tc2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 90px;
+    height: 89px;
+    margin-bottom: 20px;
+   }
+   .hero1 .card .img-C3{
+    background-image:url('tc3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+   }
+   .hero1 .card .img-C4{
+    background-image:url('tc4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 90px;
+    height: 89px;
+    margin-bottom: 20px;
+   }
+   
+   .hero1 .card .food-name{
+    font-size: 1.3rem;
+    font-weight: 600;
+    opacity: 0.6;
+    margin-bottom: 10px;
+   }
+   
+   .hero1 .card button{
+    padding: 7px 20px;
+    font-size: 1rem;
+    margin-top: 20px;
+    background-color: #8FBC8B;
+    border: none;
+    cursor: pointer;
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.54); 
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.54);
+    transition: 0.5s all ease;
+   background-color:#8FBC8B
+   }
+   
+   .hero1 .card button:hover{
+    background-color: black;
+    opacity: 0.5;
+    color: #ffffff;
+   }
+   .Toys .hero2 h2{
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-align: center;
+   }
+   
+   .hero2 .Cards{
+    max-width: 1000px;
+    height: 400px;
+    margin-left: 175px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   
+   
+   }
+   
+   .hero2 .Cards .card{
+    width: 280px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.54); 
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.54);
+    transition: 0.5s all ease;
+    border-radius: 8px;
+   background-color:#f4f8f4;
+   }
+   
+   .hero2 .card:hover{
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.72); 
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.72);
+    transform: translateY(-20px);
+   }
+   
+   .hero2 .card .img-D1{
+    background-image:url('td1.JPG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 90px;
+    height: 89px;
+    margin-bottom: 20px;
+   }
+   .hero2 .card .img-D2{
+    background-image:url('td2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 90px;
+    height: 89px;
+    margin-bottom: 20px;
+   }
+   .hero2 .card .img-D3{
+    background-image:url('td3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 90px;
+    height: 89px;
+    margin-bottom: 20px;
+   }
+   .hero2 .card .img-D4{
+    background-image:url('td4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 90px;
+    height: 89px;
+    margin-bottom: 20px;
+   }
+   
+   .hero2 .card .food-name{
+    font-size: 1.3rem;
+    font-weight: 600;
+    opacity: 0.6;
+    margin-bottom: 10px;
+   }
+   
+   .hero2 .card button{
+    padding: 7px 20px;
+    font-size: 1rem;
+    margin-top: 20px;
+    background-color: #8FBC8B;
+    border: none;
+    cursor: pointer;
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.54); 
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.54);
+    transition: 0.5s all ease;
+   background-color:#8FBC8B
+   }
+   
+   .hero2 .card button:hover{
+    background-color: black;
+    opacity: 0.5;
+    color: #ffffff;
+   }

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Toys Cart</title>
+  <link href="shopping.css" rel="stylesheet" >
+  <link rel="stylesheet" href="style to.css">
+
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+
+<div class="container"> 
+   <p><b>Toys Cart</b></p>
+   <div id="alerts"></div>
+<div class="productcont">
+        <div class="product">
+          <p><b>Cat Toys</b></p>
+            <h3 class="productname"><img src="tc21.jpg" alt="" style="width: 100px; height: 170px;">Puzzle Feeder</h3>
+            
+            <p class="price">$90.00</p>
+            <button class="addtocart">Add To Cart</button>
+        </div>
+        <div class="product">
+          <p><b>Cat Toys</b></p>
+
+          <h3 class="productname"><img src="tc2.jpg" alt="" style="width: 100px; height: 170px;">Collapsible Tunnels</h3>
+            <p class="price">$46.40</p>
+            <button class="addtocart">Add To Cart</button>
+        </div>
+        <div class="product">
+          <p><b>Cat Toys</b></p>
+
+          <h3 class="productname"><img src="tc11.jpg" alt="" style="width: 100px; height: 170px;">Mouse Doll for Cats</h3>
+
+            <p class="price">$32.10</p>
+            <button class="addtocart">Add To Cart</button>
+        </div>
+        <div class="product">
+          <p><b>Cat Toys</b></p>
+
+          <h3 class="productname"><img src="tc34.jpg" alt="" style="width: 100px; height: 170px;">Interactive Toy</h3>
+
+          <p class="price">$119.99</p>
+          <button class="addtocart">Add To Cart</button>
+      </div>
+      <div class="product">
+        <p><b>Dog Toys</b></p>
+
+        <h3 class="productname"><img src="td1.jpg" alt="" style="width: 100px; height: 170px;">Interactive dog pillow</h3>
+        <p class="price">$41.50</p>
+        <button class="addtocart">Add To Cart</button>
+    </div>
+    <div class="product">
+      <p><b>Dog Toys</b></p>
+
+      <h3 class="productname"><img src="td2.jpg" alt="" style="width: 100px; height: 170px;">Toothbrush Stick Teeth</h3>
+      <p class="price">$62.79</p>
+      <button class="addtocart">Add To Cart</button>
+  </div>
+  <div class="product">
+    <p><b>Dog Toys</b></p>
+
+    <h3 class="productname"><img src="td3.jpg" alt="" style="width: 100px; height: 145px;">Sounding balls for dogs</h3>
+    <p class="price">$88.63</p>
+    <button class="addtocart">Add To Cart</button>
+</div>
+<div class="product">
+  <p><b>Dog Toys</b></p>
+
+  <h3 class="productname"><img src="td4.jpg" alt="" style="width: 100px; height: 170px;">Dog food balls</h3>
+  <p class="price">$93.50</p>
+  <button class="addtocart">Add To Cart</button>
+</div>
+        </div>
+        <div class="cart-container">
+          <h2>Cart</h2>
+          <table>
+            <thead>
+              <tr>
+              <th><strong>Product</strong></th>
+              <th><strong>Price</strong></th>
+            </tr>
+            </thead>
+            <tbody id="carttable">
+            </tbody>
+          </table>
+          <hr>
+          <table id="carttotals">
+            <tr>
+              <td><strong>Items</strong></td>
+              <td><strong>Total</strong></td>
+            </tr>
+            <tr>
+              <td>x <span id="itemsquantity">0</span></td>
+             
+              <td>$<span id="total">0</span></td>
+            </tr></table>
+
+            
+          <div class="cart-buttons">  
+            <button id="emptycart">Empty Cart</button>
+            <button id="checkout">Checkout</button>
+          </div>
+        </div>
+</div>
+<!-- partial -->
+  <script  src="script to.js"></script>
+
+</body>
+</html>

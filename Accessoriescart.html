@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Toys Cart</title>
+  <link href="shopping.css" rel="stylesheet" >
+  <link rel="stylesheet" href="Accessoriescart.css">
+
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+
+<div class="container"> 
+   <p><b>Toys Cart</b></p>
+   <div id="alerts"></div>
+<div class="productcont">
+        <div class="product">
+          <p><b>Cat Accessories</b></p>
+            <h3 class="productname"><img src="1.jpg" alt="" style="width: 100px; height: 170px;">JUNSPOW Cat Bed</h3>
+            
+            <p class="price">$89.0</p>
+            <button class="addtocart">Add To Cart</button>
+        </div>
+        <div class="product">
+          <p><b>Cat Accessories</b></p>
+
+          <h3 class="productname"><img src="2.jpg" alt="" style="width: 100px; height: 170px;">Rabbitgoo Cat</h3>
+            <p class="price">$80.0</p>
+            <button class="addtocart">Add To Cart</button>
+        </div>
+        <div class="product">
+          <p><b>Dog Accessories</b></p>
+
+          <h3 class="productname"><img src="3.jpg" alt="" style="width: 100px; height: 170px;">Domaker Wooden Pet </h3>
+
+            <p class="price">$70.0</p>
+            <button class="addtocart">Add To Cart</button>
+        </div>
+        </div>
+        <div class="cart-container">
+          <h2>Cart</h2>
+          <table>
+            <thead>
+              <tr>
+              <th><strong>Product</strong></th>
+              <th><strong>Price</strong></th>
+            </tr>
+            </thead>
+            <tbody id="carttable">
+            </tbody>
+          </table>
+          <hr>
+          <table id="carttotals">
+            <tr>
+              <td><strong>Items</strong></td>
+              <td><strong>Total</strong></td>
+            </tr>
+            <tr>
+              <td>x <span id="itemsquantity">0</span></td>
+             
+              <td>$<span id="total">0</span></td>
+            </tr></table>
+
+            
+          <div class="cart-buttons">  
+            <button id="emptycart">Empty Cart</button>
+            <button id="checkout">Checkout</button>
+          </div>
+        </div>
+</div>
+<!-- partial -->
+  <script  src="Accessoriescart.js"></script>
+
+</body>
+</html>

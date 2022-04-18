@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Kumbh Sans', sans-serif;
+    background-color: #5B8855;
+}
+nav{
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 100px;
+    margin-left: 100px;
+    border-bottom: 2px solid #f5f5f5;
+    margin-bottom: 80px;
+}
+/*
+#5B8855 ...... gخ
+#DDF8D7 .... w
+#0052B5 ....b
+*/
+
+.links{
+    display: flex;
+}
+.links a{
+    text-decoration: none;
+    color: #999;
+    font-family: 'Kumbh Sans', sans-serif;
+    margin-left: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+    position: relative;
+    height: 120px;
+    border-bottom: 4px solid transparent;
+}
+.links a:hover{
+    border-bottom: 4px solid #DDF8D7;
+    color: #333;
+    transition: .3s;
+}
+/* .links a::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    top: 97%;
+    background-color: transparent;
+}
+.links a:hover + .links a::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    top: 97%;
+    background-color: #ff7d1b;
+} */
+.cart{
+    display: flex;
+    align-items: center;
+}
+.avatar{
+    width: 50px;
+    border: 3px solid transparent;
+    cursor: pointer;
+}
+.avatar:hover{
+    transition: .3s;
+    border: 3px solid #d66917;
+    border-radius: 50px;
+}
+.cart-icon{
+    width: 25px;
+    height: 25px;
+    margin-right: 30px;
+    filter: invert(54%) sepia(90%) saturate(12%) hue-rotate(105deg) brightness(95%) contrast(94%);
+}
+.cart-icon:hover{
+    filter: invert(0%) sepia(100%) saturate(0%) hue-rotate(345deg) brightness(93%) contrast(107%);
+    cursor: pointer;
+}
+
+main{
+    display: flex;
+    margin-right: 150px;
+    margin-left: 150px;
+     margin-top: 30px;
+}
+.product1{
+    width: 400px;
+    height: 450px;
+    border-radius: 10px;
+}
+.img-row{
+    margin-top: 30px;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+.product-thumb{
+    width: 80px;
+    border-radius: 10px;
+}
+.name{
+    color: #DDF8D7;
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.right{
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.heading1{
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+.des{
+    color: #DDF8D7;
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 15px;
+    width: 85%;
+    margin-bottom: 20px;
+}
+.dis{
+    font-size: 17px;
+    color: #ff7d1b;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: #fff1e4;
+}
+.price{
+    color: #999;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.counter{
+    display: flex;
+}
+.counter button{
+    width: 40px;
+    height: 45px;
+    font-size: 20px;
+    background-color: #f7f8fd;
+    border: none;
+    color: #0052B5;
+}
+.counter input{
+    width: 45px;
+    border: none;
+    text-align: center;
+    font-size: 17px;
+    background-color: #f7f8fd;
+    font-weight: 700;
+}
+.buttons{
+    display: flex;
+}
+.cart{
+    margin-left: 20px;
+}
+.cart button{
+    height: 45px;
+    background-color: #0052B5;
+    border: none;
+    border-radius: 10px;
+    width: 250px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+
+}
+.cart button:hover{
+    background-color: #ffac6a;
+}
+
+.cc{
+    width: 18px;
+    filter: invert(100%) sepia(6%) saturate(178%) hue-rotate(103deg) brightness(116%) contrast(100%);
+}
+
+.row > .column {
+  padding: 0 8px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Create four equal columns that floats next to eachother */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+    left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: auto;
+  max-width: 500px;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Hide the slides by default */
+.mySlides {
+  display: none;
+  width: auto; height: auto;
+}
+
+/* Next & previous buttons */
+/*.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+/*.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+/*.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+/*.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+/* Caption text */
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+

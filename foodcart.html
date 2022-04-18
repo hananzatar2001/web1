@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Food Cart</title>
+  <link rel="stylesheet" href="stylefood.css">
+  <link href="shopping.css" rel="stylesheet" >
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+
+
+
+<div class="container"> 
+   <p><b>Food Cart</b></p>
+   <div id="alerts"></div>
+<div class="productcont">
+        <div class="product">
+          <p><b>Cat Food</b></p>
+            <h3 class="productname"><img src="Cats1.jpg" alt="" style="width: 100px; height: 170px;">Mera</h3>
+            
+            <p class="price">$96.00</p>
+            <button class="addtocart">Add To Cart</button>
+        </div>
+        <div class="product">
+          <p><b>Cat Food</b></p>
+
+          <h3 class="productname"><img src="Cats2.jpg" alt="" style="width: 100px; height: 170px;">Greens</h3>
+            <p class="price">$95.00</p>
+            <button class="addtocart">Add To Cart</button>
+        </div>
+        <div class="product">
+          <p><b>Cat Food</b></p>
+
+          <h3 class="productname"><img src="Cats3.png" alt="" style="width: 100px; height: 170px;">Cat Chow</h3>
+
+            <p class="price">$95.00</p>
+            <button class="addtocart">Add To Cart</button>
+        </div>
+        <div class="product">
+          <p><b>Cat Food</b></p>
+
+          <h3 class="productname"><img src="Cats4.jpg" alt="" style="width: 100px; height: 170px;">9lives</h3>
+
+          <p class="price">$97.00</p>
+          <button class="addtocart">Add To Cart</button>
+      </div>
+      <div class="product">
+        <p><b>Dog Food</b></p>
+
+        <h3 class="productname"><img src="Dogs1.jpg" alt="" style="width: 100px; height: 170px;">Dog Chow</h3>
+        <p class="price">$91.00</p>
+        <button class="addtocart">Add To Cart</button>
+    </div>
+    <div class="product">
+      <p><b>Dog Food</b></p>
+
+      <h3 class="productname"><img src="Dogs2.jpg" alt="" style="width: 100px; height: 170px;">Nutrish</h3>
+      <p class="price">$92.99</p>
+      <button class="addtocart">Add To Cart</button>
+  </div>
+  <div class="product">
+    <p><b>Dog Food</b></p>
+
+    <h3 class="productname"><img src="Dogs3.jpg" alt="" style="width: 100px; height: 145px;">Nature's Domain</h3>
+    <p class="price">$92.03</p>
+    <button class="addtocart">Add To Cart</button>
+</div>
+<div class="product">
+  <p><b>Dog Food</b></p>
+
+  <h3 class="productname"><img src="Dogs4.jpg" alt="" style="width: 100px; height: 170px;">Green Dog</h3>
+  <p class="price">$93.50</p>
+  <button class="addtocart">Add To Cart</button>
+</div>
+        </div>
+        <div class="cart-container">
+          <h2>Cart</h2>
+          <table>
+            <thead>
+              <tr>
+              <th><strong>Product</strong></th>
+              <th><strong>Price</strong></th>
+            </tr>
+            </thead>
+            <tbody id="carttable">
+            </tbody>
+          </table>
+          <hr>
+          <table id="carttotals">
+            <tr>
+              <td><strong>Items</strong></td>
+              <td><strong>Total</strong></td>
+            </tr>
+            <tr>
+              <td>x <span id="itemsquantity">0</span></td>
+             
+              <td>$<span id="total">0</span></td>
+            </tr></table>
+
+            
+          <div class="cart-buttons">  
+            <button id="emptycart">Empty Cart</button>
+            <button id="checkout">Checkout</button>
+          </div>
+        </div>
+</div>
+<!-- partial -->
+  <script  src="script food.js"></script>
+
+</body>
+</html>

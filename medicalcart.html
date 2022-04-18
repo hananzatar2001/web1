@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Medical Cart</title>
+  <link rel="stylesheet" href="style mad.css">
+  <link rel="stylesheet" href="shopping.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+
+
+
+<div class="container"> 
+   <p><b>Medical Cart</b></p>
+   <div id="alerts"></div>
+<div class="productcont">
+        <div class="product">
+          <p><b>Cat Medicine</b></p>
+            <h3 class="productname"><img src="md43.jpg" alt="" style="width: 100px; height: 170px;">Premium First Responder Bag</h3>
+            
+            <p class="price">$56.42</p>
+            <button class="addtocart">Add To Cart</button>
+        </div>
+        <div class="product">
+          <h1><b>Cat Medicine</b></h1>
+
+          <h3 class="productname"><img src="mc2.jpg" alt="" style="width: 100px; height: 170px;">Flea Prevention and Treatment</h3>
+            <p class="price">$69.42</p>
+            <button class="addtocart">Add To Cart</button>
+        </div>
+        <div class="product">
+          <p><b>Cat Medicine</b></p>
+
+          <h3 class="productname"><img src="mc3.jpg" alt="" style="width: 100px; height: 170px;">Multi-Function Grooming Bath Bag</h3>
+
+            <p class="price">$123.45</p>
+            <button class="addtocart">Add To Cart</button>
+        </div>
+        <div class="product">
+          <p><b>Cat Medicine</b></p>
+
+          <h3 class="productname"><img src="mc41.jpg" alt="" style="width: 100px; height: 170px;">Burt's Bees Bags for Cats Treatment</h3>
+
+          <p class="price">$40.00</p>
+          <button class="addtocart">Add To Cart</button>
+      </div>
+      <div class="product">
+        <p><b>Dog Medicine</b></p>
+
+        <h3 class="productname"><img src="md11.jpg" alt="" style="width: 100px; height: 170px;">Adventure Medical Kits</h3>
+        <p class="price">$150.40</p>
+        <button class="addtocart">Add To Cart</button>
+    </div>
+    <div class="product">
+      <p><b>Dog Medicine</b></p>
+
+      <h3 class="productname"><img src="md3.jpg" alt="" style="width: 100px; height: 170px;">Canine Aerosol Chamber Inhaler</h3>
+      <p class="price">$42.49</p>
+      <button class="addtocart">Add To Cart</button>
+  </div>
+  <div class="product">
+    <p><b>Dog Medicine</b></p>
+
+    <h3 class="productname"><img src="md4.jpg" alt="" style="width: 100px; height: 145px;">First Aid/Treatment Kit-Bag - Full Dog Edition</h3>
+    <p class="price">$92.03</p>
+    <button class="addtocart">Add To Cart</button>
+</div>
+<div class="product">
+  <p><b>Dog Medicine</b></p>
+
+  <h3 class="productname"><img src="md5.jpg" alt="" style="width: 100px; height: 170px;">Leg Canine Compression Brace Wrapper</h3>
+  <p class="price">$83.50</p>
+  <button class="addtocart">Add To Cart</button>
+</div>
+        </div>
+        <div class="cart-container">
+          <h2>Cart</h2>
+          <table>
+            <thead>
+              <tr>
+              <th><strong>Product</strong></th>
+              <th><strong>Price</strong></th>
+            </tr>
+            </thead>
+            <tbody id="carttable">
+            </tbody>
+          </table>
+          <hr>
+          <table id="carttotals">
+            <tr>
+              <td><strong>Items</strong></td>
+              <td><strong>Total</strong></td>
+            </tr>
+            <tr>
+              <td>x <span id="itemsquantity">0</span></td>
+             
+              <td>$<span id="total">0</span></td>
+            </tr></table>
+
+            
+          <div class="cart-buttons">  
+            <button id="emptycart">Empty Cart</button>
+            <button id="checkout">Checkout</button>
+          </div>
+        </div>
+</div>
+<!-- partial -->
+  <script  src="script med.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+body
+{
+    background-color: #91C788;
+}
+nav
+{
+    background-color: #5B8855;
+  
+}
+.card1 {
+    margin-top: 50px;
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    background: #eee;
+    margin-bottom: 0em;
+    border-radius: .3em;
+    box-shadow: rgba(0, 0, 0, 0.2) 3px 6px 10px;
+    border: solid 1px #ccc;
+}
+
+#f
+{
+font-size: 30px;
+font-family: Cursive;
+text-align: center;
+}
+.content1 a {
+   
+    font-size: 2em;
+    color: #222;
+    
+    
+}
+
+.card1:hover{
+
+    background: url("C:\Users\raeq zatar\Desktop\h\web1\حنان زعتر\حنان زعتر/pets.jpg") no-repeat;
+}

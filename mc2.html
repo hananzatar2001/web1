@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleD1.css">
+    <title>pampered pets</title>
+</head>
+<body>
+  <div class="header">
+    <div class="logo">
+        <h1>pampered pets</h1>
+    </div>
+  </div>
+    <main>
+        <div class="left" class="row">
+ 
+            <img src="mc21.jpg" alt="" class="product1" class="hover-shadow" onclick="openModal();">
+
+            <section class="img-row">
+                  <div class="column">
+                <img src="mc22.jpg" alt="" class="product-thumb"> </div>
+                  <div class="column">
+                <img src="mc23.jpg" alt="" class="product-thumb"></div>
+                <div class="column">
+                <img src="mc24.jpg" alt="" class="product-thumb"></div>
+              
+            </section>
+        </div>
+
+
+<!-- The Modal/Lightbox -->
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 4</div>
+      <img src="mc21.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 4</div>
+      <img src="mc22.jpg" style="width:100%" >
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 4</div>
+      <img src="mc23.jpg" style="width:100%">
+    </div>
+
+
+    <!-- Next/previous controls -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <!-- Caption text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+    <!-- Thumbnail image controls -->
+    <div class="column">
+      <img class="demo" style ="width: 100px" class="column" src="mc21.jpg" onclick="currentSlide(1)">
+    </div>
+
+    <div class="column">
+      <img class="demo"  style ="width: 100px" src="mc22.jpg" onclick="currentSlide(2)" >
+    </div>
+
+    <div class="column">
+      <img class="demo"  style ="width: 100px" src="mc23.jpg" onclick="currentSlide(3)" >
+    </div>
+
+  </div>
+</div>
+
+<section class="shop-grid-area pt-50 mb-80">
+  <div class="container">
+    <div class="shop-details-content ml-50">
+      <br><br><br>
+      <h3 class="title"> K9 Dog First Aid Kit  </h3>
+          <div class="review">
+            <span>Interested:05 <span>564 Reviews(S)</span></span>
+                </div>
+                <br>
+                  <div class="t">
+                     <span>$99.00</span>
+                  </div>
+                  <span>$90.00 </span>
+                        <!------------------------------------------------------>
+                         <div class="rate">
+                            <input type="radio" id="star5" name="rate" value="5">
+                              <label for="star5" title="text">
+                                 ::before
+                                   "5 stars"
+                                </label>
+                               <input type="radio" id="star4" name="rate" value="4">
+                                  <label for="star4" title="text">
+                                      ::before
+                                      "4 stars"
+                                    </label>
+                                  <input type="radio" id="star3" name="rate" value="3">
+                                      <label for="star3" title="text">
+                                          ::before
+                                          "3 stars"
+                                      </label>
+                                      <input type="radio" id="star2" name="rate" value="2">
+                                      <label for="star2" title="text">
+                                          ::before
+                                          "2 stars"
+                                      </label>
+                                      <input type="radio" id="star1" name="rate" value="1">
+                                      <label for="star1" title="text">
+                                          ::before
+                                          "1 stars"
+                                      </label>
+                                  </div>
+                                  <br>
+                                  <br><br>
+                                 <!--------------------------------------------------------------------->
+                                  <div class="stock">
+                                      <div class="rate">
+                                      <span>Availability:<span>IN STOCK</span></span></div>
+                                  </div>
+                                   <br><br>
+                                  
+                                  <div class="text">
+                                      <p>Labra Pet Canine K9 Dog First </p>
+                                      <p>Aid Kit for Emergencies Safety</p>
+                                     <p>When Walking Running Hiking </p>
+                                     <p>Camping Injuries Cuts</p>
+                                      <p>Wounds Scrapes</p>
+
+                                  </div>
+                                  <br><br>
+                                  <div class="container1">
+                                      <button onclick="decrement()">-</button>
+                                      <h2 id="counting">0</h2>
+                                      <button onclick="increment()">+</button>
+                                      
+                                  </div>
+
+      
+      </div>
+  </div>
+        
+    </main>
+    <script src="javascriptD.js"></script>
+    <script src="count.js"></script>
+</body>
+</html>
